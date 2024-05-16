@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rsml xmlns:po='http://www.plantontology.org/xml-dtd/po.dtd'>
+	<metadata>
+		<version>1</version>
+		<unit>inch</unit>
+		<resolution>37.888332</resolution>
+		<last-modified>today</last-modified>
+		<software>smartroot</software>
+		<user>globet</user>
+		<file-key>myimage</file-key>
+		<property-definitions>
+			<property-definition>
+		    	<label>diameter</label>
+		        <type>float</type>
+		        <unit>cm</unit>
+			</property-definition>
+			<property-definition>
+		    	<label>length</label>
+		        <type>float</type>
+		        <unit>cm</unit>
+			</property-definition>
+			<property-definition>
+		    	<label>angle</label>
+		        <type>float</type>
+		        <unit>degree</unit>
+			</property-definition>
+			<property-definition>
+		    	<label>insertion</label>
+		        <type>float</type>
+		        <unit>cm</unit>
+			</property-definition>
+			<property-definition>
+		    	<label>lauz</label>
+		        <type>float</type>
+		        <unit>cm</unit>
+			</property-definition>
+			<property-definition>
+		    	<label>lbuz</label>
+		        <type>float</type>
+		        <unit>cm</unit>
+			</property-definition>
+			<property-definition>
+		    	<label>node-orientation</label>
+		        <type>float</type>
+		        <unit>radian</unit>
+			</property-definition>
+		</property-definitions>
+		<image>
+			<captured>today</captured>
+			<label>Tricho_control_APEX10_Project_20220711_0001</label>
+		</image>
+	</metadata>
+	<scene>
+		<plant>
+			<root ID='7e24b22f-4ad5-415e-a114-8414669b2cb2' label='root_' po:accession='PO:0009005'>
+				<properties>
+  <rulerAtOrigin>0.0</rulerAtOrigin>
+					<length>13.772493</length>
+					<orientation>4.740752</orientation>
+				</properties>
+				<geometry>
+					<polyline>
+						<point x='798.4609' y='203.43935'/>
+						<point x='794.2447' y='267.94827'/>
+						<point x='811.3777' y='407.69507'/>
+					</polyline>
+				</geometry>
+				<functions>
+					<function name='diameter' domain='polyline'>
+						<sample>4.7420936</sample>
+						<sample>2.7188392</sample>
+						<sample>1.5026016</sample>
+					</function>
+					<function name='orientation' domain='polyline'>
+						<sample>4.647124</sample>
+						<sample>4.8343806</sample>
+						<sample>4.907201</sample>
+					</function>
+				</functions>
+				<annotations>
+				</annotations>
+ </root>
+			<root ID='f8dbb472-2bae-4ecf-992d-cec4bf316868' label='root_' po:accession='PO:0009005'>
+				<properties>
+  <rulerAtOrigin>0.0</rulerAtOrigin>
+					<length>12.40618</length>
+					<orientation>4.687169</orientation>
+				</properties>
+				<geometry>
+					<polyline>
+						<point x='525.5' y='242.5'/>
+						<point x='520.8333' y='427.5'/>
+					</polyline>
+				</geometry>
+				<functions>
+					<function name='diameter' domain='polyline'>
+						<sample>3.969328</sample>
+						<sample>1.0</sample>
+					</function>
+					<function name='orientation' domain='polyline'>
+						<sample>4.687169</sample>
+						<sample>2.916291</sample>
+					</function>
+				</functions>
+				<annotations>
+				</annotations>
+ </root>
+			<root ID='c7f0cdf9-f0f3-4d11-9358-92e3ba9d793d' label='root_0' po:accession='PO:0009005'>
+				<properties>
+  <rulerAtOrigin>0.0</rulerAtOrigin>
+					<length>12.897398</length>
+					<orientation>4.81673</orientation>
+				</properties>
+				<geometry>
+					<polyline>
+						<point x='330.57068' y='227.83313'/>
+						<point x='334.6622' y='279.8836'/>
+						<point x='338.75372' y='331.93405'/>
+						<point x='352.43204' y='418.8282'/>
+					</polyline>
+				</geometry>
+				<functions>
+					<function name='diameter' domain='polyline'>
+						<sample>3.757008</sample>
+						<sample>3.1187367</sample>
+						<sample>2.4804657</sample>
+						<sample>2.4065511</sample>
+					</function>
+					<function name='orientation' domain='polyline'>
+						<sample>4.7908344</sample>
+						<sample>4.7908344</sample>
+						<sample>4.868521</sample>
+						<sample>4.7344313</sample>
+					</function>
+				</functions>
+				<annotations>
+				</annotations>
+ </root>
+		</plant>
+	</scene>
+</rsml>
